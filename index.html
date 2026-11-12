@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusNotes | Student Workspace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CampusNotes</h1>
+        <p>Your personal student notes workspace</p>
+    </header>
+
+    <main class="container">
+        <section class="note-form">
+            <h2>Create a New Note</h2>
+
+            <input type="text" id="title" placeholder="Note title">
+
+            <select id="subject">
+                <option value="Programming">Programming</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="General">General</option>
+            </select>
+
+            <textarea id="content" placeholder="Write your notes here..."></textarea>
+
+            <button id="addBtn">Add Note</button>
+        </section>
+
+        <section class="notes-section">
+            <h2>My Notes</h2>
+
+            <input type="text" id="search" placeholder="Search your notes...">
+
+            <div id="notesList"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CampusNotes © 2026 | Made for Students</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
