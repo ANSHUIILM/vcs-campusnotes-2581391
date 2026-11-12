@@ -96,3 +96,12 @@ footer {
     padding: 20px;
     color: #666;
 }
+header p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+header p:last-child {
+    font-size: 16px;
+    opacity: 0.9;
+}
